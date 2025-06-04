@@ -7,9 +7,32 @@
   <body>
     <h1>Hello, Phearak sovannareach!!!</h1>
     <p>This is my first website! Can u do it like me?</p>
-    <button>Click Me for arex ass</button>
-    <button>Click me for hong tong ass</button>
-    <button>click me for vannarith gyatt!</button>
   </body>
 </html>
-<img src="mypic.jpg" alt="Diamond">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toggle Image</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Click the button 😍</h1>
+
+  <button onclick="toggleImage()">Click for Rexx Rexx ass!</button>
+
+  <img id="myImage" src="mypic.jpg" style="display: none; width: 300px; margin-top: 20px;">
+
+  <script>
+    function toggleImage() {
+      const img = document.getElementById("myImage");
+
+      if (img.style.display === "none") {
+        img.style.display = "block";  // Show the image
+      } else {
+        img.style.display = "none";   // Hide the image
+      }
+    }
+  </script>
+</body>
+</html>
+
